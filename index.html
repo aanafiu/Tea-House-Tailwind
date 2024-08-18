@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'p-clr': '#777777',
+              }
+            }
+          }
+        }
+      </script>
+
+
+    <!-- Css Link -->
+     <link rel="stylesheet" href="./style/style.css">
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/9d3aa58ebe.js" crossorigin="anonymous"></script>
+</head>
+<body class="manrope m-0 py-6 box-border">
+
+    <!-- Hero -->
+     <section class="bg-white mx-auto w-[90%]  md:w-[80%]  lg:flex justify-between items-center border-solid border-[5px] border-cyan-950">
+        <!-- Left Side -->
+        <div class="w-full">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold my-5 ">It's good <br>tea time at The <br>Tea House</h1>
+            <p class="text-xl text-[#777777] my-5 w-2/3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <div class="font-bold text-xl text-white my-10">
+                <a href="#" class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] p-5 rounded-[10px] ">Explore More<i class="fa-solid fa-arrow-right -rotate-45 px-2 text-2xl"></i></a>
+            </div>
+        </div>
+        <!-- Right Side -->
+         <div class="relative flex items-center justify-center bg-slate-800 w-full" >
+            <img src="./images/banner.png" alt="" class="">
+            <div class="flex items-center justify-center absolute bottom-[0%] left-[40%] -translate-x-1/2 -translate-y-0 p-2 sm:p-3 gap-3 bg-white rounded-xl ">
+                <i class="fa-solid fa-star text-[#FFDC64] text-2xl sm:text-4xl"></i>
+                <div>
+                    <h1 class="font-extrabold text-xl sm:text-3xl text-black">5.0</h1>
+                    <p class="font-semibold text-gray-500 text-sm sm:text-xl">Trust Pilot Ratings</p>
+                </div>
+            </div>
+         </div>
+     </section>
+    
+</body>
+</html>
